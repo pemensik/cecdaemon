@@ -27,7 +27,7 @@ commands, and set the device name, and run shell scripts on standby and wake.
 
 %package -n python3-%{srcname}
 Summary:        %{summary}
-Requires:       python3-cec
+Requires:       python3-libcec
 Requires:       python3-uinput
 
 %{?python_provide:%python_provide python3-%{srcname}}
